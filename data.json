@@ -1,0 +1,9 @@
+{
+  "ip": "1.1.1.1/24",
+  "broadcast": "ff:ff:ff:ff:ff:ff",
+  "iface": "WiFi",
+  "router_data": ["12:34:56:78:9A:BC", "1.1.1.1"],
+  "mac_list": {
+    "Me": "12:34:56:78:9A:BC"
+  }
+}
