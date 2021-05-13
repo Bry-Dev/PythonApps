@@ -1,5 +1,5 @@
 # PythonApps
-Repository for Different Python Apps
+Repository for different python apps
 -
 - Network Monitor
   - This is my first python app. The purpose is to scan your wifi for unknown devices and give you the option to deauthenticate them.
