@@ -6,3 +6,6 @@ Repository for different Python apps
 
 - Guess the Number
   - A simple number guessing game.
+
+- Merge PDF
+  - A simple tool to merge all PDF inside the folders of your current working directory
