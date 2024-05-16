@@ -10,7 +10,7 @@ for fname in os.listdir(os.getcwd()):
     merger = PdfWriter()
     image_list = []
     pdf_path = os.path.join(new_path, "image.pdf")
-    for pdf_file in os.listdir(new_path):
+    for pdf_file in sorted(os.listdir(new_path)):
       pdf_merge = os.path.join(new_path, pdf_file)
       if (pdf_file.endswith(".jpg") or pdf_file.endswith(".jpeg")) and os.path.isfile(pdf_merge):
         image_list.append(Image.open(pdf_merge))
